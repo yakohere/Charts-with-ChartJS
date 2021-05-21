@@ -20,3 +20,13 @@
 .barchart {
   padding: 10px;
 }
+
+.linegraph {
+  width: 100%;
+  height: 100%;
+}
+
+.pie {
+  width: 100%;
+  height: 100%;
+}

@@ -1,5 +1,7 @@
 import './App.css';
 import BarChart from './Charts/BarChart';
+import LineGraph from './Charts/LineGraph';
+import PieChart from './Charts/PieChart';
 
 const App = () => {
   return (
@@ -8,9 +10,8 @@ const App = () => {
 
       <div className="wrapper">
         <BarChart />
-        {/* Bar Chart */}
-        {/* Line Graph */}
-        {/* Pie Chart */}
+        <LineGraph />
+        <PieChart />
       </div>
     </div>
   );
